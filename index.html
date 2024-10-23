@@ -4,40 +4,313 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/24d9e4c4b0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/24d9e4c4b0.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
     <title>TonyTesla Portfolio</title>
   </head>
   <body>
-    <section id="landing__page">
+    <section id="landing-page">
       <nav>
-          <figure class="logo__img--wrapper">
-            <img src="assets/logo.svg"  id="logo__img" alt="" />
-            <!-- <i id="personal-logo" class= "fa-solid fa-charging-station"></i> -->
-          </figure>
-          <ul class="nav__link--list">
-            <li class="nav__link">
-                <a href="#" class="nav__link--anchor 
-                link__hover-effect
-                link__hover-effect--black
-                ">About</a>
-            </li>
-            <li class="nav__link">
-                <a href="#" class="nav__link--anchor 
-                link__hover-effect
-                link__hover-effect--black
-                ">Projects</a>
-            </li>
-            <li class="nav__link">
-                <a href="#" class="nav__link--anchor 
-                link__hover-effect
-                link__hover-effect--black
-                ">Contact</a>
-            </li>
-            
-            <button></button>
-          </ul>
+        <figure class="logo__img--wrapper">
+          <img src="assets/logo.svg" id="logo__img" alt="" />
+          <!-- <i id="personal-logo" class= "fa-solid fa-charging-station"></i> -->
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black click"
+              ><i class="fa-solid fa-circle-half-stroke"></i
+            ></a>
+          </li>
+        </ul>
       </nav>
+
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title secondary">Tony Here!</h1>
+          <p class="header__para">
+            Im a <b class="secondary">Frontend Software Engineer</b> with a
+            strong passion for building web applications with great user
+            experiences.
+            <br />
+            Here's a bit more <b class="secondary">about me.</b>
+          </p>
+          <div class="social__list">
+            <a
+              href="https://www.linkedin.com/in/anthony-deleon-632764253/"
+              target="_blank"
+              class="social__link click"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Parkourkid2000"
+              target="_blank"
+              class="social__link click"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="assets/Resume2024__Anthony DeLeon.pdf"
+              target="_blank"
+              class="social__link click"
+              ><i class="fa-solid fa-file"></i
+            ></a>
+          </div>
+        </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title modal__title--about">
+            Here's a bit about me.
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--about">
+            Frontend Software Engineer.
+          </h4>
+          <p class="modal__para">
+            Lorem ipsum dolor sit
+            <b class="secondary">amet consectetur</b> adipisicing elit. Ullam,
+            odio. Vero hic beatae quisquam consequuntur odio unde. Nihil, totam?
+            Magnam.
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            odio enim iste <b class="secondary">veniam sed facilis</b> ipsa
+            explicabo natus excepturi, quas voluptatum, laborum assumenda.
+            Eaque, dolorem!
+          </p>
+          <div class="modal__languages">
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="assets/react-3-1175109.webp"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="assets/react-3-1175109.webp"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="assets/react-3-1175109.webp"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="assets/react-3-1175109.webp"
+                alt=""
+              />
+              <span class="language__name">React</span>
+            </figure>
+          </div>
+        </div>
+
+        <div class="modal__half modal__contact">
+          <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
+          <h4 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h4>
+          <form action="" id="contact__form">
+            <div class="form__item">
+              <label class="form__item--label" >Name</label>
+              <input class="input" name="user_name" type="text" required/> 
+            </div>
+            <div class="form__item">
+              <label class="form__item--label" >Email</label>
+              <input class="input" name="user_email" type="email" required/>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label" >Message</label>
+              <textarea class="input" name="message" type="text" required> </textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">Send it my way</button>
+          </form>
+        </div>
+      </div>
     </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="secondary">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
+                    neque excepturi accusantium culpa minima natus at eligendi
+                    tempora a?
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
+                    neque excepturi accusantium culpa minima natus at eligendi
+                    tempora a?
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
+                    neque excepturi accusantium culpa minima natus at eligendi
+                    tempora a?
+                  </p>
+                  <div class="project__description--links">
+                    <a href="" class="project__description--link">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="project__description--link">
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img class="footer__logo--img" src="assets/logo.svg" alt="" />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href="https://github.com/Parkourkid2000"
+              target="_blank"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/anthony-deleon-632764253/"
+              target="_blank"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Email
+            </a>
+            <a
+              href="assets/Resume2024__Anthony DeLeon.pdf"
+              target="_blank"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Resume
+            </a>
+          </div>
+          <div class="footer__copyright">CopyRight &copy; 2024 TonyTesla</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
