@@ -9,16 +9,17 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "kcqGgt1yObcsjM_HS",
-      });
-   })();
-</script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "kcqGgt1yObcsjM_HS",
+        });
+      })();
+    </script>
     <title>TonyTesla Portfolio</title>
   </head>
   <body>
@@ -46,7 +47,8 @@
           <li class="nav__link">
             <a
               href="#"
-              class="nav__link--anchor link__hover-effect link__hover-effect--black" onclick="toggleModal()"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              onclick="toggleModal()"
               >Contact</a
             >
           </li>
@@ -62,14 +64,15 @@
 
       <header class="header">
         <div class="header__content">
-          <h1 class="title">Hey</h1>
+          <h1 class="title">Hey,</h1>
           <h1 class="title secondary">Tony Here!</h1>
           <p class="header__para">
-            Im a <b class="secondary">Frontend Software Engineer</b> with a
-            strong passion for building web applications with great user
-            experiences.
+            I'm a <b class="secondary">Frontend Software Engineer</b> with a
+            strong passion for utilizing sustainable code and industry best
+            practices to develop top-end, performant websites.
             <br />
-            Here's a bit more <b class="secondary click" onclick="toggleModal()">about me.</b>
+            Here's a bit more
+            <b class="secondary click" onclick="toggleModal()">about me.</b>
           </p>
           <div class="social__list">
             <a
@@ -94,10 +97,10 @@
         </div>
       </header>
       <a href="#">
-          <button class="mail__btn click" onclick="toggleModal()">
-              <i class="fa-solid fa-envelope"></i>
-            </button>
-        </a>
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fa-solid fa-envelope"></i>
+        </button>
+      </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -108,18 +111,23 @@
             Here's a bit about me.
           </h3>
           <h4 class="modal__sub-title modal__sub-title--about">
-            Frontend Software Engineer.
+            Anthony DeLeon,
+            <br />
+            Frontend Software Engineer
           </h4>
           <p class="modal__para">
-            Lorem ipsum dolor sit
-            <b class="secondary">amet consectetur</b> adipisicing elit. Ullam,
-            odio. Vero hic beatae quisquam consequuntur odio unde. Nihil, totam?
-            Magnam.
+            I come from a background of
+            <b class="secondary">customer service and telecommunications, </b>
+            and attended LAC trade school in Tampa, Florida. I pivoted from a
+            path towards network engineering to the more creative space of
+            Frontend Software Engineering.
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            odio enim iste <b class="secondary">veniam sed facilis</b> ipsa
-            explicabo natus excepturi, quas voluptatum, laborum assumenda.
-            Eaque, dolorem!
+            My interests include Parkour, Border Collies, and most importantly
+            <b class="secondary">Tesla! </b> In my spare time, I enjoy learning
+            and growing my skills, whether its a new coding technology, fitness
+            goal, or something completely outside my comfort zone, I am very
+            determined to be the best version of myself. Check out my tech stack
+            below!
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
@@ -158,7 +166,10 @@
         </div>
 
         <div class="modal__half modal__contact">
-            <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i>
+          <i
+            class="fa-solid fa-xmark modal__exit click"
+            onclick="toggleModal()"
+          ></i>
           <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
           <h4 class="modal__sub-title modal__sub-title--contact">
             I'm currently open to new opportunities.
@@ -189,15 +200,15 @@
           </div>
         </div>
       </div>
-      <img src="assets/semi circle.svg" class="shape shape--0">
-      <img src="assets/circle.svg" class="shape shape--1">
-      <img src="assets/squiggly.svg" class="shape shape--2">
-      <img src="assets/circle.svg" class="shape shape--3">
-      <img src="assets/triangle.svg" class="shape shape--4">
-      <img src="assets/circle.svg" class="shape shape--5">
-      <img src="assets/squiggly.svg" class="shape shape--6">
-      <img src="assets/circle.svg" class="shape shape--7">
-      <img src="assets/semi circle.svg" class="shape shape--8">
+      <img src="assets/semi circle.svg" class="shape shape--0" />
+      <img src="assets/circle.svg" class="shape shape--1" />
+      <img src="assets/squiggly.svg" class="shape shape--2" />
+      <img src="assets/circle.svg" class="shape shape--3" />
+      <img src="assets/triangle.svg" class="shape shape--4" />
+      <img src="assets/circle.svg" class="shape shape--5" />
+      <img src="assets/squiggly.svg" class="shape shape--6" />
+      <img src="assets/circle.svg" class="shape shape--7" />
+      <img src="assets/semi circle.svg" class="shape shape--8" />
     </section>
 
     <section id="projects">
@@ -211,27 +222,72 @@
               <div class="project__wrapper">
                 <div class="project__wrapper--bg"></div>
 
-                <img
-                  src="./assets/blinker mockup.png"
-                  class="project__img"
-                  alt=""
-                />
+                <img src="./assets/AppleWeb.png" class="project__img" alt="" />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h3 class="project__description--title">Apple Web Clone</h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, React
+                    React, Vite, Three.js, GSAP, Tailwind.css
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
-                    neque excepturi accusantium culpa minima natus at eligendi
-                    tempora a?
+                    This Stunning Apple Clone utilized the React + Vite
+                    lightweight combo to maintain extremely high performance and
+                    load times, even when packaged with high resolution and
+                    ultra dynamic iPhone 15 Model Animations. All the thrilling
+                    animation functionality was brought to life with GSAP and
+                    Three.js, with Tailwind.css responsible for the rest of the
+                    UI design.
                   </p>
                   <div class="project__description--links">
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/apple-web-clone"
+                      class="project__description--link"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://apple-web-clone-indol.vercel.app/
+                    "
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img src="./assets/Brainwave.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">Brainwave AI</h3>
+                  <h4 class="project__description--sub-title">
+                    React, Vite, JavaScript, Tailwind.css
+                  </h4>
+                  <p class="project__description--para">
+                    This Robust and attractively designed project utilized
+                    Tailwind.css to create gorgeous gradients, an
+                    easy-on-the-eyes color theme, and Modern Bento-Box UI design
+                    components, all working together to produce a website that
+                    maintains user visit duration above the industry average of
+                    53 seconds.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/brainwave-web"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      target="blank"
+                      href="https://brainwave-web-seven.vercel.app/"
+                      class="project__description--link"
+                    >
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -243,26 +299,37 @@
                 <div class="project__wrapper--bg"></div>
 
                 <img
-                  src="./assets/blinker mockup.png"
+                  src="./assets/CollieSite.png"
                   class="project__img"
                   alt=""
                 />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h3 class="project__description--title">The Collie Kennel</h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, React
+                    React, Vite, Javascript, Tailwind.css
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
-                    neque excepturi accusantium culpa minima natus at eligendi
-                    tempora a?
+                    Inspired by the increasing number of Border Collies(BCs)
+                    ending up in shelters, I designed a mock 3rd-party adoption
+                    site that connects prospective adopters with BCs in shelters
+                    all across the US! with a mock API and personally created
+                    data set, I combined them to form the dynamic BC list as
+                    well as each BC's profile, complete with skelton loading
+                    states.
                   </p>
                   <div class="project__description--links">
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/React-Project-Finale/tree/main"
+                      class="project__description--link"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://collie-kennel.vercel.app/"
+                      class="project__description--link"
+                    >
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -274,26 +341,118 @@
                 <div class="project__wrapper--bg"></div>
 
                 <img
-                  src="./assets/blinker mockup.png"
+                  src="./assets/NFTMarketplace.png"
                   class="project__img"
                   alt=""
                 />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car Sales Project</h3>
+                  <h3 class="project__description--title">NFT Marketplace</h3>
                   <h4 class="project__description--sub-title">
-                    HTML, CSS, JavaScript, React
+                    React, React-Slick Slider, AOS Animations, Javascript,
+                    Tailwind.css
                   </h4>
                   <p class="project__description--para">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Velit quia, distinctio, repudiandae suscipit ratione sequi,
-                    neque excepturi accusantium culpa minima natus at eligendi
-                    tempora a?
+                    This internship project was completed utilizing Git
+                    Branching strategies that paralleled a real team production
+                    environment. I worked on multiple high level component
+                    functions, including carousels, real-time countdown timers,
+                    dynamic API-powered routing and pages, API filtering and
+                    slicing, etc. Each component was designed with User
+                    Experience in mind, with skeleton loading states and
+                    animations from the AOS library.
                   </p>
                   <div class="project__description--links">
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/Anthony-DeLeon-Internship"
+                      class="project__description--link"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="" class="project__description--link">
+                    <a
+                      target="blank"
+                      href="https://anthony-deleon-nft-marketplace.vercel.app/"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img
+                  src="./assets/BooksEcommerce.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    E-Commerce Library
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    React, JavaScript, HTML, CSS
+                  </h4>
+                  <p class="project__description--para">
+                    This digital Library utilizes React-Router-Dom to power
+                    dynamic routes and flawless API integration for dynamic data
+                    fetching and rendering. This website also features the
+                    ability to sort books by filters, add items to your cart
+                    while updating the items and total, and conditionally
+                    rendering an empty cart display.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/React-Commerce-App"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      target="blank"
+                      href="https://react-commerce-app-mocha.vercel.app/"
+                      class="project__description--link"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <div class="project__wrapper--bg"></div>
+
+                <img src="./assets/Nike.png" class="project__img" alt="" />
+                <div class="project__description">
+                  <h3 class="project__description--title">Nike Web Clone</h3>
+                  <h4 class="project__description--sub-title">
+                    React, Vite, JavaScript, Tailwind.css
+                  </h4>
+                  <p class="project__description--para">
+                    This Nike Storefront is a Tailwind.css centric page, and
+                    focuses on displaying the ability of Tailwind to transform
+                    websites from basic to brilliant in a fraction of the time
+                    of bare CSS. The page also features clickable shoe options
+                    to change part of the page; feel free to try it out!
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      target="blank"
+                      href="https://github.com/Parkourkid2000/nike-store"
+                      class="project__description--link"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      target="blank"
+                      href="https://nike-store-kappa-rosy.vercel.app/"
+                      class="project__description--link"
+                    >
                       <i class="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -326,7 +485,8 @@
               LinkedIn
             </a>
             <a
-              href="#" onclick="toggleModal()"
+              href="#"
+              onclick="toggleModal()"
               class="footer__social--link link__hover-effect link__hover-effect--white"
             >
               Contact

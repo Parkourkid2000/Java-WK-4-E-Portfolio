@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  z-index: 1;
 }
 
 html {
@@ -626,6 +627,7 @@ footer {
 /* SHAPES */
 .shape {
   position: fixed;
+  z-index: 0;
 }
 
 .shape--0 {
