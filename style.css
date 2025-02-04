@@ -632,6 +632,7 @@ footer {
 /* SHAPES */
 .shape {
   position: fixed;
+  display: none;
   z-index: 0;
 }
 
@@ -706,6 +707,9 @@ footer {
 @media (max-width: 480px) {
   .title {
     font-size: 52px;
+  }
+  .shape {
+    display: none;
   }
   .header__para {
     font-size: 18px;
